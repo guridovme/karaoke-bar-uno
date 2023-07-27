@@ -249,3 +249,82 @@ line-height: normal;
     top: 54px;
     left: 211px;
 }
+.reserve{
+    background-image: url(../images/reserve-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reserve-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top:80px;
+    padding-bottom: 100px;
+}
+.reserve-block-title{
+    color: coral;
+    font-family: Tinos;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.reserve-block-subtitle{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.reserve-block-button{
+    
+}
+.reserve-block-button a{
+    background: coral;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px;
+}
+.dishes-title{
+    color: #000;
+font-family: Tinos;
+font-size: 54px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.dishes-title span{
+    color: coral;
+font-family: Tinos;
+font-size: 54px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.burgers {
+    display: flex;
+    gap: 20px;
+}
+.burgers-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.burger-item{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.burger-text{
+    color: #000;
+font-family: Tinos;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
