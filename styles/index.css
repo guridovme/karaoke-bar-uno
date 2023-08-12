@@ -433,7 +433,22 @@ body{
     padding: 100px;
     color: #fff;
 }
-@media (max-width:1500px){
+
+
+.burger-slide{
+    position: absolute;
+}
+.burger-btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.burger-active{
+    display: none;
+}
+
+@media (max-width:800px){
     .menu-items{
         flex-direction: column;
     }
